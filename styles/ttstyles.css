@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #313438;
+  color: FloralWhite;
+  list-style-position: inside;
+}
+
+h1{
+  color: FloralWhite;
+}
+#retrieve-data{
+  background: FloralWhite;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 0.25rem;
+  height: 2rem;
+  transition: all 0.2s;
+}
+#retrieve-data:hover{
+  background: #3e76c1;
+  transform: scale(1.2);
+  color: FloralWhite;
+}
