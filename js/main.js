@@ -210,7 +210,6 @@ function registeredBeforeDate(jsonArray, cutoffDate){
       validUser.push([jsonArray[i].name.first,jsonArray[i].name.last,jsonArray[i].registered]);
     }
   }
-  console.log(validUser);
   x = "";
   for(var i = 0; i < validUser.length; i++){
       var list = validUser[i];
