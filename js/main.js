@@ -22,7 +22,7 @@ function init() {
 function retrieveData(callback){
   var peopleJson = new XMLHttpRequest();
   peopleJson.overrideMimeType("application/json");
-  peopleJson.open('GET', '../JSON/fakepeople.json', true);
+  peopleJson.open('GET', '../TravelTekTest/JSON/fakepeople.json', true);
   peopleJson.onreadystatechange = function(){
     if (peopleJson.readyState == 4 && peopleJson.status == "200"){
       callback(peopleJson.responseText);
